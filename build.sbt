@@ -258,7 +258,7 @@ lazy val commonSettings = Defaults.coreDefaultSettings ++ dirSettings ++ implici
     "-language:existentials"
   ),
   // For Building on Encrypted File Systems...
-  scalacOptions ++= Seq("-Xmax-classfile-name", "128"),
+  scalacOptions ++= Seq("-Xmax-classfile-name", "78"),
   resolvers ++= Dependencies.repos,
   libraryDependencies ++= apiDeps,
   parallelExecution in Test := false,
